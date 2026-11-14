@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-# Quality checks and automation for reusable-ci
+# Quality checks and automation for DCAT-AP-SE Processor
 # Run 'just' to see available commands
 
 devtools_repo := env("DEVBASE_CHECK_REPO", "https://github.com/diggsweden/devbase-check")
@@ -23,7 +23,7 @@ NC := "\\033[0m"
 
 # Display available recipes
 default:
-    @printf "{{CYAN_BOLD}} Reusable CI{{NC}}\n"
+    @printf "{{CYAN_BOLD}} DCAT-AP-SE Processor{{NC}}\n"
     @printf "\n"
     @printf "Quick start: {{GREEN}}just setup-devtools{{NC}} | {{BLUE}}just verify{{NC}} | {{MAGENTA}}just lint-all{{NC}}\n"
     @printf "\n"

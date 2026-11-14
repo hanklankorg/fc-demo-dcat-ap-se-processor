@@ -5,7 +5,10 @@
 # .rumdl.toml
 
 [global]
-# (optional) whatever else you have here
+# The rule and the paths `just lint-markdown` leaves out on its command
+# line, so the pull request gate judges Markdown as `just lint-all` does.
+disable = ["MD013"]
+exclude = [".github-shared", "node_modules", "vendor", "target", "CHANGELOG.md"]
 
 [per-file-ignores]
 "README.md" = ["MD033"]
