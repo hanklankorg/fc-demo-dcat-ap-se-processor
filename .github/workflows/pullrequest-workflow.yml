@@ -56,4 +56,4 @@ jobs:
     permissions:
       contents: read # Access test resources and source code
       packages: read # Fetch test dependencies from GitHub Packages
-    uses: ./.github/workflows/maven-test.yml
+    uses: ./.github/workflows/test.yml
