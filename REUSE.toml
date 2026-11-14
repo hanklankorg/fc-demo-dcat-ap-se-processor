@@ -8,6 +8,7 @@ version = 1
 path = [
   "renovate.json",
   ".prettierrc.json",
+  "CHANGELOG.md",
   "docs/Licenser/*.txt",
 ]
 precedence = "aggregate"
